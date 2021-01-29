@@ -1,0 +1,11 @@
+application:
+  openWeatherMapApiKey: "a8189bdddedbc80bd82c399b3faa4a26"
+
+spring:
+  datasource:
+    url: "jdbc:postgresql:postgres"
+    username: "postgres"
+    password: "coding-dojo"
+
+server:
+  port: 8080

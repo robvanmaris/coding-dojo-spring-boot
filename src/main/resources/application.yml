@@ -1,0 +1,19 @@
+#debug: true
+
+application:
+  openWeatherMapApiKey: "a8189bdddedbc80bd82c399b3faa4a26"
+  openWeatherMapUrlTemplate: "http://api.openweathermap.org/data/2.5/weather?q={city}&APPID={appId}"
+
+spring:
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: "jdbc:postgresql:postgres"
+    username: "postgres"
+    password: "coding-dojo"
+  jpa:
+    open-in-view: false
+  profiles:
+    active: dev
+
+server:
+  port: 8080
